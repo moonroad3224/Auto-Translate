@@ -8,7 +8,7 @@ import dotenv
 from dotenv import load_dotenv
 load_dotenv()
 geminikey = os.environ.get('APIKEY1')
-bottoken = os.environ.get("TOKEN1")
+bottoken = os.environ.get("TOKEN2")
 ChID = 1296696402742611979 #Channnel ID
 genai.configure(api_key=geminikey)
 model = genai.GenerativeModel('gemini-1.5-flash')
